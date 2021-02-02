@@ -1,151 +1,31 @@
 [ {
-  "uid" : "928d86d0da2a0c4",
-  "name" : "popout DZI again",
-  "time" : {
-    "start" : 1611918994995,
-    "stop" : 1611919013395,
-    "duration" : 18400
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "9cd590236ee19d38",
-  "name" : "As a user, I should be able to load more images while scrolling down",
-  "time" : {
-    "start" : 1612242211193,
-    "stop" : 1612242244745,
-    "duration" : 33552
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c54f53d73bf51328",
+  "uid" : "3422b73d3fedd5b9",
   "name" : "As a user, I should be able to open DZI viwer from List",
   "time" : {
-    "start" : 1612082443345,
-    "stop" : 1612082462903,
-    "duration" : 19558
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "2a3c36f48f3413c",
-  "name" : "As a user, I should be able to open DZI viwer from List",
-  "time" : {
-    "start" : 1611985525058,
-    "stop" : 1611985543976,
-    "duration" : 18918
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "363194a5ba6e5416",
-  "name" : "should load more images",
-  "time" : {
-    "start" : 1611918991793,
-    "stop" : 1611919010474,
-    "duration" : 18681
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "bbcc54d428ae3e5",
-  "name" : "As a user, I should be able to popout DZI viewer",
-  "time" : {
-    "start" : 1611985544030,
-    "stop" : 1611985544113,
-    "duration" : 83
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a1d62f968c166d0a",
-  "name" : "As a user, I should be able to popout DZI viewer",
-  "time" : {
-    "start" : 1612245472884,
-    "stop" : 1612245502373,
-    "duration" : 29489
+    "start" : 1612304423163,
+    "stop" : 1612304437781,
+    "duration" : 14618
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "729b269ba4c20331",
-  "name" : "As a user, I should be able to load more images while scrolling down",
-  "time" : {
-    "start" : 1612083107033,
-    "stop" : 1612083125947,
-    "duration" : 18914
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ab988a70a44cce2d",
+  "uid" : "941fb8f3e7e76377",
   "name" : "As a user, I should be able to popout DZI viewer",
   "time" : {
-    "start" : 1612242244622,
-    "stop" : 1612242262745,
-    "duration" : 18123
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "8cff1a8108dbcd3",
-  "name" : "As a user, I should be able to open DZI viwer from List",
-  "time" : {
-    "start" : 1612245459021,
-    "stop" : 1612245472878,
-    "duration" : 13857
+    "start" : 1612304437789,
+    "stop" : 1612304466560,
+    "duration" : 28771
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f5ff6bd71f153cd4",
+  "uid" : "c22dd7db4533304a",
   "name" : "As a user, I should be able to load more images while scrolling down",
   "time" : {
-    "start" : 1611980384433,
-    "stop" : 1611980404820,
-    "duration" : 20387
+    "start" : 1612304417687,
+    "stop" : 1612304430619,
+    "duration" : 12932
   },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "99143bc11e8377d4",
-  "name" : "As a user, I should be able to open DZI viwer from List",
-  "time" : {
-    "start" : 1612242214744,
-    "stop" : 1612242244599,
-    "duration" : 29855
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "1fe64be6ee415535",
-  "name" : "As a user, I should be able to popout DZI viewer",
-  "time" : {
-    "start" : 1612083128417,
-    "stop" : 1612083144392,
-    "duration" : 15975
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "5f205f23f64b65b",
-  "name" : "As a user, I should be able to popout DZI viewer",
-  "time" : {
-    "start" : 1612082462928,
-    "stop" : 1612082479401,
-    "duration" : 16473
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "496c27fba3872598",
-  "name" : "As a user, I should be able to open DZI viwer from List",
-  "time" : {
-    "start" : 1612083109928,
-    "stop" : 1612083128396,
-    "duration" : 18468
-  },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]

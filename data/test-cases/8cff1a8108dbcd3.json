@@ -1,0 +1,174 @@
+{
+  "uid" : "8cff1a8108dbcd3",
+  "name" : "As a user, I should be able to open DZI viwer from List",
+  "fullName" : "Validate the DZI viewer functionility.As a user, I should be able to open DZI viwer from List",
+  "historyId" : "23de10da2916541ba95c556f6fd9f8d1",
+  "time" : {
+    "start" : 1612245459021,
+    "stop" : 1612245472878,
+    "duration" : 13857
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When user is able to select Campaign \"15Oct\"",
+      "time" : {
+        "start" : 1612245459030,
+        "stop" : 1612245467476,
+        "duration" : 8446
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then user is able to open DZI viewer from List",
+      "time" : {
+        "start" : 1612245467476,
+        "stop" : 1612245472360,
+        "duration" : 4884
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "fb81acfad708665",
+      "name" : "Execution video",
+      "source" : "fb81acfad708665.mp4",
+      "type" : "video/mp4",
+      "size" : 113544
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should be able to open DZI viwer from List"
+  }, {
+    "name" : "package",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  }, {
+    "name" : "browserVersion",
+    "value" : "88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "69435833bb38b509",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612243377004,
+        "stop" : 1612243389839,
+        "duration" : 12835
+      }
+    }, {
+      "uid" : "db4e329a1af24e06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612243291797,
+        "stop" : 1612243316212,
+        "duration" : 24415
+      }
+    }, {
+      "uid" : "fa37b8e4d6bae3b",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> 05f2bea3748f4043227b01c54c723abf,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1612243224805,
+        "stop" : 1612243240034,
+        "duration" : 15229
+      }
+    }, {
+      "uid" : "2dd9e2ee1372a9fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612243037823,
+        "stop" : 1612243063828,
+        "duration" : 26005
+      }
+    }, {
+      "uid" : "d99a643dbd43a98f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612242974100,
+        "stop" : 1612243002259,
+        "duration" : 28159
+      }
+    }, {
+      "uid" : "7881670567f9666",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612242814225,
+        "stop" : 1612242838398,
+        "duration" : 24173
+      }
+    }, {
+      "uid" : "caf9491323ca26a",
+      "status" : "broken",
+      "statusDetails" : "browser.close is not a function",
+      "time" : {
+        "start" : 1612242686704,
+        "stop" : 1612242710450,
+        "duration" : 23746
+      }
+    }, {
+      "uid" : "4ad5545de774c65e",
+      "status" : "broken",
+      "statusDetails" : "browser.quit is not a function",
+      "time" : {
+        "start" : 1612242589194,
+        "stop" : 1612242600022,
+        "duration" : 10828
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8cff1a8108dbcd3.json",
+  "parameterValues" : [ "chrome-88.0.4324.104", "88.0.4324.104" ]
+}

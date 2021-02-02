@@ -1,0 +1,120 @@
+{
+  "uid" : "d99a643dbd43a98f",
+  "name" : "As a user, I should be able to open DZI viwer from List",
+  "fullName" : "Validate the DZI viewer functionility.As a user, I should be able to open DZI viwer from List",
+  "historyId" : "23de10da2916541ba95c556f6fd9f8d1",
+  "time" : {
+    "start" : 1612242974100,
+    "stop" : 1612243002259,
+    "duration" : 28159
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given user is able to login with \"nitish@thakur\" and \"abcd12345\"",
+      "time" : {
+        "start" : 1612242974230,
+        "stop" : 1612242988821,
+        "duration" : 14591
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When user is able to select Campaign \"15Oct\"",
+      "time" : {
+        "start" : 1612242988822,
+        "stop" : 1612242997282,
+        "duration" : 8460
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then user is able to open DZI viewer from List",
+      "time" : {
+        "start" : 1612242997282,
+        "stop" : 1612243002184,
+        "duration" : 4902
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "ef557535643b5c84",
+      "name" : "Execution video",
+      "source" : "ef557535643b5c84.mp4",
+      "type" : "video/mp4",
+      "size" : 219
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should be able to open DZI viwer from List"
+  }, {
+    "name" : "package",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.104"
+  }, {
+    "name" : "browserVersion",
+    "value" : "88.0.4324.104"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d99a643dbd43a98f.json",
+  "parameterValues" : [ "chrome-88.0.4324.104", "88.0.4324.104" ]
+}

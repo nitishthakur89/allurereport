@@ -1,0 +1,235 @@
+{
+  "uid" : "99143bc11e8377d4",
+  "name" : "As a user, I should be able to open DZI viwer from List",
+  "fullName" : "Validate the DZI viewer functionility.As a user, I should be able to open DZI viwer from List",
+  "historyId" : "22d42ed8bab89fe33f3f2b77639d4fff",
+  "time" : {
+    "start" : 1612242214744,
+    "stop" : 1612242244599,
+    "duration" : 29855
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "browser.quit is not a function",
+  "statusTrace" : "TypeError: browser.quit is not a function\n                    at World.<anonymous> (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\step_definitions\\vaa_steps.js:45:13)\n                    at World.userHookFn (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\cucumber-framework\\build\\utils.js:137:71)\n                    at World.executeSync (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at fibers_1.default (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:46:68)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "browser.quit is not a function",
+    "statusTrace" : "TypeError: browser.quit is not a function\n                    at World.<anonymous> (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\step_definitions\\vaa_steps.js:45:13)\n                    at World.userHookFn (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\cucumber-framework\\build\\utils.js:137:71)\n                    at World.executeSync (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at fibers_1.default (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:46:68)",
+    "steps" : [ {
+      "name" : "Given user is able to login with \"nitish@thakur\" and \"abcd12345\"",
+      "time" : {
+        "start" : 1612242216785,
+        "stop" : 1612242229149,
+        "duration" : 12364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When user is able to select Campaign \"15Oct\"",
+      "time" : {
+        "start" : 1612242229150,
+        "stop" : 1612242238353,
+        "duration" : 9203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then user is able to open DZI viewer from List",
+      "time" : {
+        "start" : 1612242238354,
+        "stop" : 1612242244595,
+        "duration" : 6241
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Hook",
+      "time" : {
+        "start" : 1612242244595,
+        "stop" : 1612242244599,
+        "duration" : 4
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: browser.quit is not a function\n                    at World.<anonymous> (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\step_definitions\\vaa_steps.js:45:13)\n                    at World.userHookFn (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\cucumber-framework\\build\\utils.js:137:71)\n                    at World.executeSync (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at fibers_1.default (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:46:68)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "8fd6c8b0777586b2",
+      "name" : "Execution video",
+      "source" : "8fd6c8b0777586b2.mp4",
+      "type" : "video/mp4",
+      "size" : 111118
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should be able to open DZI viwer from List"
+  }, {
+    "name" : "package",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-85.0"
+  }, {
+    "name" : "browserVersion",
+    "value" : "85.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c68c8a80c3e874eb",
+      "status" : "broken",
+      "statusDetails" : "browser.quit is not a function",
+      "time" : {
+        "start" : 1612242179704,
+        "stop" : 1612242179721,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "32113ca0bf94c369",
+      "status" : "broken",
+      "statusDetails" : "browser.quit is not a function",
+      "time" : {
+        "start" : 1612241981468,
+        "stop" : 1612241981494,
+        "duration" : 26
+      }
+    }, {
+      "uid" : "d195c103dcdee455",
+      "status" : "broken",
+      "statusDetails" : "browser.close is not a function",
+      "time" : {
+        "start" : 1612241864323,
+        "stop" : 1612241892602,
+        "duration" : 28279
+      }
+    }, {
+      "uid" : "5a15ad0572991579",
+      "status" : "broken",
+      "statusDetails" : "browser.quit is not a function",
+      "time" : {
+        "start" : 1612241618762,
+        "stop" : 1612241651066,
+        "duration" : 32304
+      }
+    }, {
+      "uid" : "5afdeebe65fba3d6",
+      "status" : "broken",
+      "statusDetails" : "browser.quit is not a function",
+      "time" : {
+        "start" : 1612241531970,
+        "stop" : 1612241562050,
+        "duration" : 30080
+      }
+    }, {
+      "uid" : "a85b9fcdfac2b5e1",
+      "status" : "broken",
+      "statusDetails" : "browser.quit is not a function",
+      "time" : {
+        "start" : 1612241466530,
+        "stop" : 1612241485064,
+        "duration" : 18534
+      }
+    }, {
+      "uid" : "b42438e6df3156f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612231110724,
+        "stop" : 1612231143698,
+        "duration" : 32974
+      }
+    }, {
+      "uid" : "8d1b29faea220a37",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> 316a93a0-8256-40f4-8e67-7002a471f004,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1611985960757,
+        "stop" : 1611985979624,
+        "duration" : 18867
+      }
+    }, {
+      "uid" : "518c82ad38e6c48a",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> b01856f7-1b00-491a-b4b7-e31601950be7,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1611985820298,
+        "stop" : 1611985840032,
+        "duration" : 19734
+      }
+    }, {
+      "uid" : "97107e330c4c8da8",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> bf666a5a-1115-4b7c-a899-bdeb3db50bab,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1611985716046,
+        "stop" : 1611985735562,
+        "duration" : 19516
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "99143bc11e8377d4.json",
+  "parameterValues" : [ "firefox-85.0", "85.0" ]
+}

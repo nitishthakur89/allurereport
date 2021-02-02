@@ -1,0 +1,140 @@
+{
+  "uid" : "2a3c36f48f3413c",
+  "name" : "As a user, I should be able to open DZI viwer from List",
+  "fullName" : "Validate the DZI viewer functionility.As a user, I should be able to open DZI viwer from List",
+  "historyId" : "fb455d4c8a4404f390b1842ec88dbe92",
+  "time" : {
+    "start" : 1611985525058,
+    "stop" : 1611985543976,
+    "duration" : 18918
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition failed with the following reason: Tried to run command without establishing a connection",
+  "statusTrace" : "Error: waitUntil condition failed with the following reason: Tried to run command without establishing a connection\n                    at timer.catch (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:26:15)\n                    at Element.runCommandWithHooks (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at commonFunction.findelement (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\commonFunction.js:15:16)\n                    at commonFunction.onclick (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\commonFunction.js:31:12)\n                    at vaa_resusablefunction.login (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\vaa_resusablefunction.js:21:28)\n                    at World.<anonymous> (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\step_definitions\\vaa_steps.js:9:20)\n                    at World.executeSync (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at fibers_1.default (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:46:68)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "waitUntil condition failed with the following reason: Tried to run command without establishing a connection",
+    "statusTrace" : "Error: waitUntil condition failed with the following reason: Tried to run command without establishing a connection\n                    at timer.catch (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:26:15)\n                    at Element.runCommandWithHooks (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at commonFunction.findelement (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\commonFunction.js:15:16)\n                    at commonFunction.onclick (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\commonFunction.js:31:12)\n                    at vaa_resusablefunction.login (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\vaa_resusablefunction.js:21:28)\n                    at World.<anonymous> (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\step_definitions\\vaa_steps.js:9:20)\n                    at World.executeSync (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at fibers_1.default (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:46:68)",
+    "steps" : [ {
+      "name" : "Given user is able to login with \"nitish@thakur\" and \"abcd12345\"",
+      "time" : {
+        "start" : 1611985527837,
+        "stop" : 1611985543975,
+        "duration" : 16138
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: waitUntil condition failed with the following reason: Tried to run command without establishing a connection\n                    at timer.catch (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:26:15)\n                    at Element.runCommandWithHooks (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at commonFunction.findelement (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\commonFunction.js:15:16)\n                    at commonFunction.onclick (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\commonFunction.js:31:12)\n                    at vaa_resusablefunction.login (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\vaa_resusablefunction.js:21:28)\n                    at World.<anonymous> (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\step_definitions\\vaa_steps.js:9:20)\n                    at World.executeSync (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at fibers_1.default (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:46:68)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When user is able to select Campaign \"15Oct\"",
+      "time" : {
+        "start" : 1611985543977,
+        "stop" : 1611985543980,
+        "duration" : 3
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then user is able to open DZI viewer from List",
+      "time" : {
+        "start" : 1611985543981,
+        "stop" : 1611985543982,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "d2dafad6b2265b47",
+      "name" : "Execution video",
+      "source" : "d2dafad6b2265b47.mp4",
+      "type" : "video/mp4",
+      "size" : 220
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should be able to open DZI viwer from List"
+  }, {
+    "name" : "package",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-84.0.2"
+  }, {
+    "name" : "browserVersion",
+    "value" : "84.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6f097393a111166c",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> 25b9e65b-97c0-41a9-9fcd-0aae03c65ff4,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1611985429865,
+        "stop" : 1611985451005,
+        "duration" : 21140
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2a3c36f48f3413c.json",
+  "parameterValues" : [ "firefox-84.0.2", "84.0.2" ]
+}

@@ -2,30 +2,199 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "AIMS test cases",
-    "uid" : "4b1e8e1b715edaf6",
+    "name" : "should load more images",
+    "uid" : "363194a5ba6e5416",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
+    "status" : "broken",
     "time" : {
-      "start" : 1597987268827,
-      "stop" : 1597987289943,
-      "duration" : 21116
+      "start" : 1611918991793,
+      "stop" : 1611919010474,
+      "duration" : 18681
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ ]
+    "parameters" : [ "chrome-87.0.4280.88", "87.0.4280.88" ]
   }, {
-    "name" : "API test cases",
-    "uid" : "719ad4ec21ed32c7",
+    "name" : "popout DZI again",
+    "uid" : "928d86d0da2a0c4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1611918994995,
+      "stop" : 1611919013395,
+      "duration" : 18400
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-84.0.1", "84.0.1" ]
+  }, {
+    "name" : "As a user, I should be able to load more images while scrolling down",
+    "uid" : "f5ff6bd71f153cd4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1611980384433,
+      "stop" : 1611980404820,
+      "duration" : 20387
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.66", "87.0.4280.66" ]
+  }, {
+    "name" : "As a user, I should be able to open DZI viwer from List",
+    "uid" : "2a3c36f48f3413c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1611985525058,
+      "stop" : 1611985543976,
+      "duration" : 18918
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-84.0.2", "84.0.2" ]
+  }, {
+    "name" : "As a user, I should be able to popout DZI viewer",
+    "uid" : "bbcc54d428ae3e5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1611985544030,
+      "stop" : 1611985544113,
+      "duration" : 83
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-84.0.2", "84.0.2" ]
+  }, {
+    "name" : "As a user, I should be able to open DZI viwer from List",
+    "uid" : "c54f53d73bf51328",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1612082443345,
+      "stop" : 1612082462903,
+      "duration" : 19558
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-88.0.4324.96", "88.0.4324.96" ]
+  }, {
+    "name" : "As a user, I should be able to popout DZI viewer",
+    "uid" : "5f205f23f64b65b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1612082462928,
+      "stop" : 1612082479401,
+      "duration" : 16473
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-88.0.4324.96", "88.0.4324.96" ]
+  }, {
+    "name" : "As a user, I should be able to load more images while scrolling down",
+    "uid" : "729b269ba4c20331",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1612083107033,
+      "stop" : 1612083125947,
+      "duration" : 18914
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-88.0.4324.96", "88.0.4324.96" ]
+  }, {
+    "name" : "As a user, I should be able to open DZI viwer from List",
+    "uid" : "496c27fba3872598",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1612083109928,
+      "stop" : 1612083128396,
+      "duration" : 18468
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-84.0", "84.0" ]
+  }, {
+    "name" : "As a user, I should be able to popout DZI viewer",
+    "uid" : "1fe64be6ee415535",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1612083128417,
+      "stop" : 1612083144392,
+      "duration" : 15975
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-84.0", "84.0" ]
+  }, {
+    "name" : "As a user, I should be able to load more images while scrolling down",
+    "uid" : "9cd590236ee19d38",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1612242211193,
+      "stop" : 1612242244745,
+      "duration" : 33552
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-88.0.4324.104", "88.0.4324.104" ]
+  }, {
+    "name" : "As a user, I should be able to open DZI viwer from List",
+    "uid" : "99143bc11e8377d4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1612242214744,
+      "stop" : 1612242244599,
+      "duration" : 29855
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-85.0", "85.0" ]
+  }, {
+    "name" : "As a user, I should be able to popout DZI viewer",
+    "uid" : "ab988a70a44cce2d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1612242244622,
+      "stop" : 1612242262745,
+      "duration" : 18123
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-85.0", "85.0" ]
+  }, {
+    "name" : "As a user, I should be able to open DZI viwer from List",
+    "uid" : "8cff1a8108dbcd3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1598337012772,
-      "stop" : 1598337012861,
-      "duration" : 89
+      "start" : 1612245459021,
+      "stop" : 1612245472878,
+      "duration" : 13857
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ ]
+    "parameters" : [ "chrome-88.0.4324.104", "88.0.4324.104" ]
+  }, {
+    "name" : "As a user, I should be able to popout DZI viewer",
+    "uid" : "a1d62f968c166d0a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1612245472884,
+      "stop" : 1612245502373,
+      "duration" : 29489
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-88.0.4324.104", "88.0.4324.104" ]
   } ]
 }

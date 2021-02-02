@@ -1,0 +1,212 @@
+{
+  "uid" : "729b269ba4c20331",
+  "name" : "As a user, I should be able to load more images while scrolling down",
+  "fullName" : "Validate the Image is loading new images.As a user, I should be able to load more images while scrolling down",
+  "historyId" : "61966968ef8c61e635bebdcc57b18c0a",
+  "time" : {
+    "start" : 1612083107033,
+    "stop" : 1612083125947,
+    "duration" : 18914
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unable to find element -> e6dbc2e934f7dd39160307471b79b48f,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+  "statusTrace" : "Error: unable to find element -> e6dbc2e934f7dd39160307471b79b48f,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                    at timer.catch (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:22:23)\n                    at Element.runCommandWithHooks (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at commonFunction.findelement (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\commonFunction.js:15:16)\n                    at commonFunction.onclick (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\commonFunction.js:31:12)\n                    at vaa_resusablefunction.login (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\vaa_resusablefunction.js:21:28)\n                    at World.<anonymous> (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\step_definitions\\vaa_steps.js:9:20)\n                    at World.executeSync (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at fibers_1.default (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:46:68)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unable to find element -> e6dbc2e934f7dd39160307471b79b48f,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+    "statusTrace" : "Error: unable to find element -> e6dbc2e934f7dd39160307471b79b48f,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                    at timer.catch (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:22:23)\n                    at Element.runCommandWithHooks (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at commonFunction.findelement (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\commonFunction.js:15:16)\n                    at commonFunction.onclick (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\commonFunction.js:31:12)\n                    at vaa_resusablefunction.login (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\vaa_resusablefunction.js:21:28)\n                    at World.<anonymous> (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\step_definitions\\vaa_steps.js:9:20)\n                    at World.executeSync (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at fibers_1.default (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:46:68)",
+    "steps" : [ {
+      "name" : "Given user is able to login with \"nitish@thakur\" and \"abcd12345\"",
+      "time" : {
+        "start" : 1612083108905,
+        "stop" : 1612083125947,
+        "duration" : 17042
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: unable to find element -> e6dbc2e934f7dd39160307471b79b48f,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                    at timer.catch (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:22:23)\n                    at Element.runCommandWithHooks (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at commonFunction.findelement (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\commonFunction.js:15:16)\n                    at commonFunction.onclick (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\commonFunction.js:31:12)\n                    at vaa_resusablefunction.login (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\pageobjects\\reusablefunction\\vaa_resusablefunction.js:21:28)\n                    at World.<anonymous> (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\step_definitions\\vaa_steps.js:9:20)\n                    at World.executeSync (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at fibers_1.default (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:46:68)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "When user is able to select Campaign \"15Oct\"",
+      "time" : {
+        "start" : 1612083125947,
+        "stop" : 1612083125948,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then user is able to load more images in Image list",
+      "time" : {
+        "start" : 1612083125948,
+        "stop" : 1612083125948,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "4f268482b52edf4f",
+      "name" : "Execution video",
+      "source" : "4f268482b52edf4f.mp4",
+      "type" : "video/mp4",
+      "size" : 235
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate the Image is loading new images"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate the Image is loading new images"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should be able to load more images while scrolling down"
+  }, {
+    "name" : "package",
+    "value" : "Validate the Image is loading new images"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.96"
+  }, {
+    "name" : "browserVersion",
+    "value" : "88.0.4324.96"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8ee77aa24f4af69",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> e9e46127d89cddfaef505026be2a4a92,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1612083048235,
+        "stop" : 1612083067372,
+        "duration" : 19137
+      }
+    }, {
+      "uid" : "2b07f803dfe65960",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> f609df43b6185628f1aa7b4de5ec8c53,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1612082960047,
+        "stop" : 1612082979555,
+        "duration" : 19508
+      }
+    }, {
+      "uid" : "cef2ffcdbc83cf22",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> a52507e128cdff53ab6295ee902ed5e5,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1612082741059,
+        "stop" : 1612082760070,
+        "duration" : 19011
+      }
+    }, {
+      "uid" : "c28529fd849cad1b",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> 91fe68540bfbfd35fc81266d59c737a6,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1612082443179,
+        "stop" : 1612082462590,
+        "duration" : 19411
+      }
+    }, {
+      "uid" : "7f757679f4510056",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> f75051c607bd7af2058fdf9f1fc47c5a,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1612082260384,
+        "stop" : 1612082278812,
+        "duration" : 18428
+      }
+    }, {
+      "uid" : "6426ce69fc16fac6",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> 4fa8a43edf14ae4a9fd520d032bfd004,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1612081742954,
+        "stop" : 1612081762837,
+        "duration" : 19883
+      }
+    }, {
+      "uid" : "a7f73b65ade67730",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> b98f1877c93e447f5197330ee4663f1d,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1612081660018,
+        "stop" : 1612081679960,
+        "duration" : 19942
+      }
+    }, {
+      "uid" : "71bab4d0b827cdeb",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> 8720145aa83ba47a123d6acd35b77100,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1612076551034,
+        "stop" : 1612076570970,
+        "duration" : 19936
+      }
+    }, {
+      "uid" : "d32414523d2bfce4",
+      "status" : "broken",
+      "statusDetails" : "unable to find element -> 1f550f2c0a97ba129acf0672d5f71d57,[object Object],=LOGIN USING AN AIMS3D LOCAL ACCOUNT,[object Object],function () { [native code] },false,(name, fn) => {\n                        browser.__propertiesObject__[name] = { value: fn };\n                        origAddCommand(name, utils_1.runFnInFiberContext(fn));\n                    },function (name, func, attachToElement = false, proto, instances) {\n                            let customCommand = typeof commandWrapper === 'function'\n                                ? commandWrapper(name, func)\n                                : func;\n                            if (attachToElement) {\n                                if (instances) {\n                                    Object.values(instances).forEach(instance => {\n                                        instance.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                    });\n                                }\n                                else {\n                                    this.__propertiesObject__.__elementOverrides__.value[name] = customCommand;\n                                }\n                            }\n                            else if (client[name]) {\n                                const origCommand = client[name];\n                                delete client[name];\n                                unit.lift(name, customCommand, proto, (...args) => origCommand.apply(this, args));\n                            }\n                            else {\n                                throw new Error('overwriteCommand: no command to be overwritten: ' + name);\n                            }\n                        }",
+      "time" : {
+        "start" : 1611991901485,
+        "stop" : 1611991921510,
+        "duration" : 20025
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "729b269ba4c20331.json",
+  "parameterValues" : [ "chrome-88.0.4324.96", "88.0.4324.96" ]
+}

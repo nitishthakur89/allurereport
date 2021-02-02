@@ -1,0 +1,140 @@
+{
+  "uid" : "5a15ad0572991579",
+  "name" : "As a user, I should be able to open DZI viwer from List",
+  "fullName" : "Validate the DZI viewer functionility.As a user, I should be able to open DZI viwer from List",
+  "historyId" : "22d42ed8bab89fe33f3f2b77639d4fff",
+  "time" : {
+    "start" : 1612241618762,
+    "stop" : 1612241651066,
+    "duration" : 32304
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "browser.quit is not a function",
+  "statusTrace" : "TypeError: browser.quit is not a function\n                    at World.<anonymous> (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\step_definitions\\vaa_steps.js:45:13)\n                    at World.userHookFn (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\cucumber-framework\\build\\utils.js:137:71)\n                    at World.executeSync (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at fibers_1.default (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:46:68)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "browser.quit is not a function",
+    "statusTrace" : "TypeError: browser.quit is not a function\n                    at World.<anonymous> (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\step_definitions\\vaa_steps.js:45:13)\n                    at World.userHookFn (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\cucumber-framework\\build\\utils.js:137:71)\n                    at World.executeSync (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at fibers_1.default (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:46:68)",
+    "steps" : [ {
+      "name" : "Given user is able to login with \"nitish@thakur\" and \"abcd12345\"",
+      "time" : {
+        "start" : 1612241620825,
+        "stop" : 1612241634284,
+        "duration" : 13459
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When user is able to select Campaign \"15Oct\"",
+      "time" : {
+        "start" : 1612241634285,
+        "stop" : 1612241644182,
+        "duration" : 9897
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then user is able to open DZI viewer from List",
+      "time" : {
+        "start" : 1612241644183,
+        "stop" : 1612241651050,
+        "duration" : 6867
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Hook",
+      "time" : {
+        "start" : 1612241651054,
+        "stop" : 1612241651066,
+        "duration" : 12
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: browser.quit is not a function\n                    at World.<anonymous> (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\test\\step_definitions\\vaa_steps.js:45:13)\n                    at World.userHookFn (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\cucumber-framework\\build\\utils.js:137:71)\n                    at World.executeSync (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at fibers_1.default (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-Framework\\AIMS.VAA-TestAutomation\\node_modules\\@wdio\\sync\\build\\index.js:46:68)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "cb0be194f1e7b937",
+      "name" : "Execution video",
+      "source" : "cb0be194f1e7b937.mp4",
+      "type" : "video/mp4",
+      "size" : 141938
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I should be able to open DZI viwer from List"
+  }, {
+    "name" : "package",
+    "value" : "Validate the DZI viewer functionility"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-85.0"
+  }, {
+    "name" : "browserVersion",
+    "value" : "85.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a15ad0572991579.json",
+  "parameterValues" : [ "firefox-85.0", "85.0" ]
+}

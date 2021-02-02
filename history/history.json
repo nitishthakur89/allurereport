@@ -1,5 +1,5 @@
 {
-  "ab9864d7efad4d068014323466fab83b" : {
+  "af440a5703fc45b2011d71e5385b6c6a" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,50 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5a512deee4cba6d2",
+      "uid" : "719ad4ec21ed32c7",
       "status" : "passed",
       "time" : {
-        "start" : 1610508292447,
-        "stop" : 1610508322838,
-        "duration" : 30391
+        "start" : 1598337012772,
+        "stop" : 1598337012861,
+        "duration" : 89
       }
     } ]
   },
-  "e2aabc0c0c922cf35aa6f5334717baae" : {
+  "bb359bb92887f15ba800912ce2c57b0b" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3e4ff783a8a207e1",
-      "status" : "passed",
+      "uid" : "4b1e8e1b715edaf6",
+      "status" : "failed",
+      "statusDetails" : "Failed: Element <input id=\"label\" class=\"form-control ng-pristine ng-untouched ng-valid\" type=\"text\"> could not be scrolled into view\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'GTLT02797', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_261'\n                Driver info: driver.version: unknown",
       "time" : {
-        "start" : 1610508288991,
-        "stop" : 1610508322335,
-        "duration" : 33344
-      }
-    } ]
-  },
-  "f83304f320f71b95099aaab8ef832f67" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "5f7b0ee46dccc846",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610508322853,
-        "stop" : 1610508355704,
-        "duration" : 32851
+        "start" : 1597987268827,
+        "stop" : 1597987289943,
+        "duration" : 21116
       }
     } ]
   }

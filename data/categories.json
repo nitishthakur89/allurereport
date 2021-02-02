@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: Element <input id=\"label\" class=\"form-control ng-pristine ng-untouched ng-valid\" type=\"text\"> could not be scrolled into view\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'GTLT02797', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_261'\n                Driver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "AIMS test cases",
+        "uid" : "4b1e8e1b715edaf6",
+        "parentUid" : "fd4b911ed77d2ea85c5493d939a0cbcb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597987268827,
+          "stop" : 1597987289943,
+          "duration" : 21116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd4b911ed77d2ea85c5493d939a0cbcb"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

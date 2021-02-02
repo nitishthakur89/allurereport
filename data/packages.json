@@ -2,51 +2,38 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "Validate the Image is loading new images",
+    "name" : "AIMS login",
     "children" : [ {
-      "name" : "As a user, I should be able to load more images while scrolling down",
-      "uid" : "3e4ff783a8a207e1",
-      "parentUid" : "61b4ae6cdb6a7dcd690c81de65f7ae44",
-      "status" : "passed",
+      "name" : "AIMS test cases",
+      "uid" : "4b1e8e1b715edaf6",
+      "parentUid" : "8a346022e1df5ae200e5768ec54b1f8e",
+      "status" : "failed",
       "time" : {
-        "start" : 1610508288991,
-        "stop" : 1610508322335,
-        "duration" : 33344
+        "start" : 1597987268827,
+        "stop" : 1597987289943,
+        "duration" : 21116
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.88", "87.0.4280.88" ]
+      "parameters" : [ ]
     } ],
-    "uid" : "61b4ae6cdb6a7dcd690c81de65f7ae44"
+    "uid" : "8a346022e1df5ae200e5768ec54b1f8e"
   }, {
-    "name" : "Validate the DZI viewer functionility",
+    "name" : "apitest",
     "children" : [ {
-      "name" : "As a user, I should be able to open DZI viwer from map",
-      "uid" : "5a512deee4cba6d2",
-      "parentUid" : "f4792028a0521b516833f11c58ce2e8f",
+      "name" : "API test cases",
+      "uid" : "719ad4ec21ed32c7",
+      "parentUid" : "f339e6056012eaa64008da4379ba2cb2",
       "status" : "passed",
       "time" : {
-        "start" : 1610508292447,
-        "stop" : 1610508322838,
-        "duration" : 30391
+        "start" : 1598337012772,
+        "stop" : 1598337012861,
+        "duration" : 89
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "firefox-84.0.1", "84.0.1" ]
-    }, {
-      "name" : "As a user, I should be able to popout DZI viewer",
-      "uid" : "5f7b0ee46dccc846",
-      "parentUid" : "f4792028a0521b516833f11c58ce2e8f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1610508322853,
-        "stop" : 1610508355704,
-        "duration" : 32851
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox-84.0.1", "84.0.1" ]
+      "parameters" : [ ]
     } ],
-    "uid" : "f4792028a0521b516833f11c58ce2e8f"
+    "uid" : "f339e6056012eaa64008da4379ba2cb2"
   } ]
 }

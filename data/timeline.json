@@ -4,240 +4,49 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "should login with valid credentials",
-      "uid" : "4e2354460ed084d",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606367059546,
-        "stop" : 1606367071041,
-        "duration" : 11495
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "44554a3dbc1eff81",
+      "name" : "As a user, I should be able to load more images while scrolling down",
+      "uid" : "3e4ff783a8a207e1",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1606367665464,
-        "stop" : 1606367678426,
-        "duration" : 12962
+        "start" : 1610508288991,
+        "stop" : 1610508322335,
+        "duration" : 33344
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "89181c1967437bfa",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606366231002,
-        "stop" : 1606366244363,
-        "duration" : 13361
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "9e4a00fa78e78d14",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606366844840,
-        "stop" : 1606366858669,
-        "duration" : 13829
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "814b1f6f7164b145",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606365963452,
-        "stop" : 1606365976405,
-        "duration" : 12953
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "de91460f2ace9568",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606368767147,
-        "stop" : 1606368778713,
-        "duration" : 11566
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "73cda7b95952a4cb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606368809929,
-        "stop" : 1606368821712,
-        "duration" : 11783
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "ffdfc5643ccf7484",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606366495223,
-        "stop" : 1606366509053,
-        "duration" : 13830
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "92a4f4b12c285dc4",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1606368871758,
-        "stop" : 1606368885474,
-        "duration" : 13716
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "ce0a07e72a74afd0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606368586847,
-        "stop" : 1606368599730,
-        "duration" : 12883
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "a1ca201a78332cdf",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1606367106024,
-        "stop" : 1606367119278,
-        "duration" : 13254
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "c2e001c6ae76192f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606368541179,
-        "stop" : 1606368556926,
-        "duration" : 15747
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "b47ab3bdffc61dea",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606367036382,
-        "stop" : 1606367044962,
-        "duration" : 8580
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "9594928cbab72235",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606368674773,
-        "stop" : 1606368686492,
-        "duration" : 11719
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "44b2a40d878cdb9c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606367753544,
-        "stop" : 1606367766501,
-        "duration" : 12957
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "ae273b5eb8deceb6",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606365853136,
-        "stop" : 1606365866367,
-        "duration" : 13231
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "bec831b7f5d033a2",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1606368842078,
-        "stop" : 1606368853911,
-        "duration" : 11833
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "7d057558e5f55060",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1606366893989,
-        "stop" : 1606366915814,
-        "duration" : 21825
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
+      "parameters" : [ "chrome-87.0.4280.88", "87.0.4280.88" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "1-0",
+    "children" : [ {
+      "name" : "As a user, I should be able to open DZI viwer from map",
+      "uid" : "5a512deee4cba6d2",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610508292447,
+        "stop" : 1610508322838,
+        "duration" : 30391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.1", "84.0.1" ]
+    }, {
+      "name" : "As a user, I should be able to popout DZI viewer",
+      "uid" : "5f7b0ee46dccc846",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610508322853,
+        "stop" : 1610508355704,
+        "duration" : 32851
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.1", "84.0.1" ]
+    } ],
+    "uid" : "5d884c24784638b93056bad95e3212e7"
   } ]
 }

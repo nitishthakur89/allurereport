@@ -2,17 +2,43 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "should login with valid credentials",
-    "uid" : "92a4f4b12c285dc4",
+    "name" : "As a user, I should be able to load more images while scrolling down",
+    "uid" : "3e4ff783a8a207e1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1606368871758,
-      "stop" : 1606368885474,
-      "duration" : 13716
+      "start" : 1610508288991,
+      "stop" : 1610508322335,
+      "duration" : 33344
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "chrome-87.0.4280.66" ]
+    "parameters" : [ "chrome-87.0.4280.88", "87.0.4280.88" ]
+  }, {
+    "name" : "As a user, I should be able to open DZI viwer from map",
+    "uid" : "5a512deee4cba6d2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610508292447,
+      "stop" : 1610508322838,
+      "duration" : 30391
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-84.0.1", "84.0.1" ]
+  }, {
+    "name" : "As a user, I should be able to popout DZI viewer",
+    "uid" : "5f7b0ee46dccc846",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610508322853,
+      "stop" : 1610508355704,
+      "duration" : 32851
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-84.0.1", "84.0.1" ]
   } ]
 }

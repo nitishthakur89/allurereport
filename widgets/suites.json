@@ -1,8 +1,19 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
-    "uid" : "ff9b43c34a817b44fa9b6edf61b00141",
-    "name" : "My Login application",
+    "uid" : "8cee23fb4c690803dc61fa0b1e84f497",
+    "name" : "Validate the DZI viewer functionility",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "29b5df9f40818a99267f9e89135b95cc",
+    "name" : "Validate the Image is loading new images",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

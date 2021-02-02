@@ -2,21 +2,51 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "My Login application",
+    "name" : "Validate the Image is loading new images",
     "children" : [ {
-      "name" : "should login with valid credentials",
-      "uid" : "92a4f4b12c285dc4",
-      "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
+      "name" : "As a user, I should be able to load more images while scrolling down",
+      "uid" : "3e4ff783a8a207e1",
+      "parentUid" : "29b5df9f40818a99267f9e89135b95cc",
       "status" : "passed",
       "time" : {
-        "start" : 1606368871758,
-        "stop" : 1606368885474,
-        "duration" : 13716
+        "start" : 1610508288991,
+        "stop" : 1610508322335,
+        "duration" : 33344
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
+      "parameters" : [ "chrome-87.0.4280.88", "87.0.4280.88" ]
     } ],
-    "uid" : "ff9b43c34a817b44fa9b6edf61b00141"
+    "uid" : "29b5df9f40818a99267f9e89135b95cc"
+  }, {
+    "name" : "Validate the DZI viewer functionility",
+    "children" : [ {
+      "name" : "As a user, I should be able to open DZI viwer from map",
+      "uid" : "5a512deee4cba6d2",
+      "parentUid" : "8cee23fb4c690803dc61fa0b1e84f497",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610508292447,
+        "stop" : 1610508322838,
+        "duration" : 30391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.1", "84.0.1" ]
+    }, {
+      "name" : "As a user, I should be able to popout DZI viewer",
+      "uid" : "5f7b0ee46dccc846",
+      "parentUid" : "8cee23fb4c690803dc61fa0b1e84f497",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610508322853,
+        "stop" : 1610508355704,
+        "duration" : 32851
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.1", "84.0.1" ]
+    } ],
+    "uid" : "8cee23fb4c690803dc61fa0b1e84f497"
   } ]
 }

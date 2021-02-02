@@ -2,21 +2,51 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "My Login application",
+    "name" : "Validate the Image is loading new images",
     "children" : [ {
-      "name" : "should login with valid credentials",
-      "uid" : "92a4f4b12c285dc4",
-      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "name" : "As a user, I should be able to load more images while scrolling down",
+      "uid" : "3e4ff783a8a207e1",
+      "parentUid" : "61b4ae6cdb6a7dcd690c81de65f7ae44",
       "status" : "passed",
       "time" : {
-        "start" : 1606368871758,
-        "stop" : 1606368885474,
-        "duration" : 13716
+        "start" : 1610508288991,
+        "stop" : 1610508322335,
+        "duration" : 33344
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.66" ]
+      "parameters" : [ "chrome-87.0.4280.88", "87.0.4280.88" ]
     } ],
-    "uid" : "f43874cc36d1c5833cbb332fc53460ce"
+    "uid" : "61b4ae6cdb6a7dcd690c81de65f7ae44"
+  }, {
+    "name" : "Validate the DZI viewer functionility",
+    "children" : [ {
+      "name" : "As a user, I should be able to open DZI viwer from map",
+      "uid" : "5a512deee4cba6d2",
+      "parentUid" : "f4792028a0521b516833f11c58ce2e8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610508292447,
+        "stop" : 1610508322838,
+        "duration" : 30391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.1", "84.0.1" ]
+    }, {
+      "name" : "As a user, I should be able to popout DZI viewer",
+      "uid" : "5f7b0ee46dccc846",
+      "parentUid" : "f4792028a0521b516833f11c58ce2e8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610508322853,
+        "stop" : 1610508355704,
+        "duration" : 32851
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.1", "84.0.1" ]
+    } ],
+    "uid" : "f4792028a0521b516833f11c58ce2e8f"
   } ]
 }

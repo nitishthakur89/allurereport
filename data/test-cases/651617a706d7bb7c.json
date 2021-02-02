@@ -1,0 +1,60 @@
+{
+  "uid" : "651617a706d7bb7c",
+  "name" : "API test cases",
+  "fullName" : "apitest.API test cases",
+  "historyId" : "af440a5703fc45b2011d71e5385b6c6a",
+  "time" : {
+    "start" : 1596687302897,
+    "stop" : 1596687367482,
+    "duration" : 64585
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "57b4b2e0d4ad2cad",
+      "name" : "Screenshot",
+      "source" : "57b4b2e0d4ad2cad.png",
+      "type" : "image/png",
+      "size" : 5230
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "apitest"
+  }, {
+    "name" : "testClass",
+    "value" : "apitest"
+  }, {
+    "name" : "testMethod",
+    "value" : "API test cases"
+  }, {
+    "name" : "package",
+    "value" : "apitest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "651617a706d7bb7c.json",
+  "parameterValues" : [ ]
+}

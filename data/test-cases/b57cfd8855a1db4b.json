@@ -1,0 +1,60 @@
+{
+  "uid" : "b57cfd8855a1db4b",
+  "name" : "AIMS test cases",
+  "fullName" : "AIMS login.AIMS test cases",
+  "historyId" : "bb359bb92887f15ba800912ce2c57b0b",
+  "time" : {
+    "start" : 1582775089386,
+    "stop" : 1582775128188,
+    "duration" : 38802
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "78b60b82222c06a4",
+      "name" : "Screenshot",
+      "source" : "78b60b82222c06a4.png",
+      "type" : "image/png",
+      "size" : 1898305
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "AIMS login"
+  }, {
+    "name" : "testClass",
+    "value" : "AIMS login"
+  }, {
+    "name" : "testMethod",
+    "value" : "AIMS test cases"
+  }, {
+    "name" : "package",
+    "value" : "AIMS login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b57cfd8855a1db4b.json",
+  "parameterValues" : [ ]
+}

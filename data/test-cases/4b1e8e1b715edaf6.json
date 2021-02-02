@@ -1,0 +1,1137 @@
+{
+  "uid" : "4b1e8e1b715edaf6",
+  "name" : "AIMS test cases",
+  "fullName" : "AIMS login.AIMS test cases",
+  "historyId" : "bb359bb92887f15ba800912ce2c57b0b",
+  "time" : {
+    "start" : 1597987268827,
+    "stop" : 1597987289943,
+    "duration" : 21116
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Element <input id=\"label\" class=\"form-control ng-pristine ng-untouched ng-valid\" type=\"text\"> could not be scrolled into view\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'GTLT02797', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_261'\n                Driver info: driver.version: unknown",
+  "statusTrace" : "WebDriverError: Element <input id=\"label\" class=\"form-control ng-pristine ng-untouched ng-valid\" type=\"text\"> could not be scrolled into view\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'GTLT02797', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_261'\n                Driver info: driver.version: unknown\n                    at Object.checkLegacyResponse (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n                    at parseHttpResponse (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n                    at doSend.then.response (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)\n                From: Task: WebElement.clear()\n                    at thenableWebDriverProxy.schedule (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n                    at WebElement.schedule_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2010:25)\n                    at WebElement.clear (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2351:17)\n                    at actionFn (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:89:44)\n                    at Array.map (<anonymous>)\n                    at actionResults.getWebElements.then (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:461:65)\n                    at ManagedPromise.invokeCallback_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n                    at TaskQueue.execute_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at asyncRun (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)Error\n                    at ElementArrayFinder.applyAction_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n                    at ElementArrayFinder.(anonymous function).args [as clear] (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n                    at ElementFinder.(anonymous function).args [as clear] (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n                    at C:\\AIMS3d\\framework\\AIMS javascript\\AIMS-javascript\\page\\utils\\baseclass.js:72:33\n                    at elementArrayFinder_.then (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:804:32)\n                    at ManagedPromise.invokeCallback_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n                    at TaskQueue.execute_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at asyncRun (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n                    at C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                From: Task: Run it(\"AIMS test cases\") in control flow\n                    at UserContext.<anonymous> (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (C:\\AIMS3d\\framework\\AIMS javascript\\AIMS-javascript\\test\\login_spec-copy.js:15:2)\n                    at addSpecsToSuite (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (C:\\AIMS3d\\framework\\AIMS javascript\\AIMS-javascript\\test\\login_spec-copy.js:9:1)\n                    at Module._compile (internal/modules/cjs/loader.js:776:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n                    at Module.load (internal/modules/cjs/loader.js:653:32)\n                    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: Element <input id=\"label\" class=\"form-control ng-pristine ng-untouched ng-valid\" type=\"text\"> could not be scrolled into view\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'GTLT02797', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_261'\n                Driver info: driver.version: unknown",
+    "statusTrace" : "WebDriverError: Element <input id=\"label\" class=\"form-control ng-pristine ng-untouched ng-valid\" type=\"text\"> could not be scrolled into view\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'GTLT02797', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_261'\n                Driver info: driver.version: unknown\n                    at Object.checkLegacyResponse (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n                    at parseHttpResponse (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n                    at doSend.then.response (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)\n                From: Task: WebElement.clear()\n                    at thenableWebDriverProxy.schedule (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n                    at WebElement.schedule_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2010:25)\n                    at WebElement.clear (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\webdriver.js:2351:17)\n                    at actionFn (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:89:44)\n                    at Array.map (<anonymous>)\n                    at actionResults.getWebElements.then (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:461:65)\n                    at ManagedPromise.invokeCallback_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n                    at TaskQueue.execute_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at asyncRun (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)Error\n                    at ElementArrayFinder.applyAction_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:459:27)\n                    at ElementArrayFinder.(anonymous function).args [as clear] (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:91:29)\n                    at ElementFinder.(anonymous function).args [as clear] (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:831:22)\n                    at C:\\AIMS3d\\framework\\AIMS javascript\\AIMS-javascript\\page\\utils\\baseclass.js:72:33\n                    at elementArrayFinder_.then (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\built\\element.js:804:32)\n                    at ManagedPromise.invokeCallback_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1376:14)\n                    at TaskQueue.execute_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at asyncRun (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2927:27)\n                    at C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n                From: Task: Run it(\"AIMS test cases\") in control flow\n                    at UserContext.<anonymous> (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:94:19)\n                    at attempt (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                    at Spec.queueRunnerFactory (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:909:35)\n                    at Spec.execute (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:526:10)\n                    at UserContext.fn (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:5340:37)\n                    at attempt (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n                    at QueueRunner.run (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n                    at QueueRunner.execute (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4199:10)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (C:\\AIMS3d\\framework\\AIMS javascript\\AIMS-javascript\\test\\login_spec-copy.js:15:2)\n                    at addSpecsToSuite (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (C:\\Users\\nthakur\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (C:\\AIMS3d\\framework\\AIMS javascript\\AIMS-javascript\\test\\login_spec-copy.js:9:1)\n                    at Module._compile (internal/modules/cjs/loader.js:776:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n                    at Module.load (internal/modules/cjs/loader.js:653:32)\n                    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "11d7810d02cd4f06",
+      "name" : "Screenshot",
+      "source" : "11d7810d02cd4f06.png",
+      "type" : "image/png",
+      "size" : 2493849
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "AIMS login"
+  }, {
+    "name" : "testClass",
+    "value" : "AIMS login"
+  }, {
+    "name" : "testMethod",
+    "value" : "AIMS test cases"
+  }, {
+    "name" : "package",
+    "value" : "AIMS login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a25b20752adcaa68",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597987268827,
+        "stop" : 0,
+        "duration" : -1597987268827
+      }
+    }, {
+      "uid" : "2596cabfcd1e8df9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597987268723,
+        "stop" : 1597987295789,
+        "duration" : 27066
+      }
+    }, {
+      "uid" : "1845f743a7d7b6f1",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597987268722,
+        "stop" : 0,
+        "duration" : -1597987268722
+      }
+    }, {
+      "uid" : "e92e22173fa2deb5",
+      "status" : "failed",
+      "statusDetails" : "Failed: Element <input id=\"label\" class=\"form-control ng-pristine ng-untouched ng-valid\" type=\"text\"> could not be scrolled into view\n                Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'\n                System info: host: 'GTLT02797', ip: '192.168.1.109', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_261'\n                Driver info: driver.version: unknown",
+      "time" : {
+        "start" : 1597986613597,
+        "stop" : 1597986638722,
+        "duration" : 25125
+      }
+    }, {
+      "uid" : "b1f4c6e5e9e54fd2",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597986613597,
+        "stop" : 0,
+        "duration" : -1597986613597
+      }
+    }, {
+      "uid" : "38c1c75a8aa7274d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597986613510,
+        "stop" : 1597986643684,
+        "duration" : 30174
+      }
+    }, {
+      "uid" : "62ba4c3c1c47930d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597986613510,
+        "stop" : 0,
+        "duration" : -1597986613510
+      }
+    }, {
+      "uid" : "c3e7bbe7b95a9411",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1597981445914,
+        "stop" : 1597981446392,
+        "duration" : 478
+      }
+    }, {
+      "uid" : "e85377af190cdc87",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597981445914,
+        "stop" : 0,
+        "duration" : -1597981445914
+      }
+    }, {
+      "uid" : "924765adb325a8eb",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1597981442728,
+        "stop" : 1597981445710,
+        "duration" : 2982
+      }
+    }, {
+      "uid" : "e6b4108cc9933e20",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597981442727,
+        "stop" : 0,
+        "duration" : -1597981442727
+      }
+    }, {
+      "uid" : "cb34bf100a542b86",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597981398755,
+        "stop" : 0,
+        "duration" : -1597981398755
+      }
+    }, {
+      "uid" : "26d89ce4a19dc0cb",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'click' of undefined",
+      "time" : {
+        "start" : 1597981398755,
+        "stop" : 1597981399170,
+        "duration" : 415
+      }
+    }, {
+      "uid" : "a49db7fee63bfdba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597645454301,
+        "stop" : 1597645479365,
+        "duration" : 25064
+      }
+    }, {
+      "uid" : "f20f6cf59c9427c8",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597645454301,
+        "stop" : 0,
+        "duration" : -1597645454301
+      }
+    }, {
+      "uid" : "46934c85c2bfab5b",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597645453469,
+        "stop" : 0,
+        "duration" : -1597645453469
+      }
+    }, {
+      "uid" : "fa4d799e8df7ed51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597645453469,
+        "stop" : 1597645480962,
+        "duration" : 27493
+      }
+    }, {
+      "uid" : "72542f9046ff747a",
+      "status" : "failed",
+      "statusDetails" : "Failed: baseclass.waitforseconds is not a function",
+      "time" : {
+        "start" : 1597645413202,
+        "stop" : 1597645413580,
+        "duration" : 378
+      }
+    }, {
+      "uid" : "a48aaed48cc82ca9",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597645413202,
+        "stop" : 0,
+        "duration" : -1597645413202
+      }
+    }, {
+      "uid" : "d5407b0c5885966c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597645413183,
+        "stop" : 0,
+        "duration" : -1597645413183
+      }
+    }, {
+      "uid" : "2613564c08f60a4d",
+      "status" : "failed",
+      "statusDetails" : "Failed: baseclass.waitforseconds is not a function",
+      "time" : {
+        "start" : 1597645413183,
+        "stop" : 1597645415712,
+        "duration" : 2529
+      }
+    }, {
+      "uid" : "8a8c545ea12b0fa4",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597645057165,
+        "stop" : 0,
+        "duration" : -1597645057165
+      }
+    }, {
+      "uid" : "e97d25bbaf672939",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597645057165,
+        "stop" : 1597645078925,
+        "duration" : 21760
+      }
+    }, {
+      "uid" : "307ac5b34d5957fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597645057120,
+        "stop" : 1597645082738,
+        "duration" : 25618
+      }
+    }, {
+      "uid" : "b38aadfe33e06d3e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597645057119,
+        "stop" : 0,
+        "duration" : -1597645057119
+      }
+    }, {
+      "uid" : "579dbe6a9848614a",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597644997703,
+        "stop" : 0,
+        "duration" : -1597644997703
+      }
+    }, {
+      "uid" : "8a6113d5b829d07e",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, divViewer)",
+      "time" : {
+        "start" : 1597644997703,
+        "stop" : 1597645019744,
+        "duration" : 22041
+      }
+    }, {
+      "uid" : "6b2cc31862b09997",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(css selector, divViewer)",
+      "time" : {
+        "start" : 1597644997616,
+        "stop" : 1597645023285,
+        "duration" : 25669
+      }
+    }, {
+      "uid" : "1accc37e0d11ba63",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597644997616,
+        "stop" : 0,
+        "duration" : -1597644997616
+      }
+    }, {
+      "uid" : "6b9e446b97d085e3",
+      "status" : "failed",
+      "statusDetails" : "Failed: toRight is not defined",
+      "time" : {
+        "start" : 1597644838917,
+        "stop" : 1597644841451,
+        "duration" : 2534
+      }
+    }, {
+      "uid" : "1def019d8188bc58",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597644838917,
+        "stop" : 0,
+        "duration" : -1597644838917
+      }
+    }, {
+      "uid" : "a7684c62dcf4985c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597644838917,
+        "stop" : 0,
+        "duration" : -1597644838917
+      }
+    }, {
+      "uid" : "275005df0bf03c10",
+      "status" : "failed",
+      "statusDetails" : "Failed: toRight is not defined",
+      "time" : {
+        "start" : 1597644838917,
+        "stop" : 1597644839329,
+        "duration" : 412
+      }
+    }, {
+      "uid" : "511fb1a91b8ccc70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597643849726,
+        "stop" : 1597643873834,
+        "duration" : 24108
+      }
+    }, {
+      "uid" : "d598303824d25dc",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643849726,
+        "stop" : 0,
+        "duration" : -1597643849726
+      }
+    }, {
+      "uid" : "e80ad3818048146f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597643848623,
+        "stop" : 1597643874819,
+        "duration" : 26196
+      }
+    }, {
+      "uid" : "9cd30ef79658f191",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643848623,
+        "stop" : 0,
+        "duration" : -1597643848623
+      }
+    }, {
+      "uid" : "b1707e3aa5066898",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643797196,
+        "stop" : 0,
+        "duration" : -1597643797196
+      }
+    }, {
+      "uid" : "f6a7e7aeb5cdaaa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597643797196,
+        "stop" : 1597643823210,
+        "duration" : 26014
+      }
+    }, {
+      "uid" : "f9e473ffae65af38",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643797172,
+        "stop" : 0,
+        "duration" : -1597643797172
+      }
+    }, {
+      "uid" : "f232b47fccf3b844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597643797172,
+        "stop" : 1597643823809,
+        "duration" : 26637
+      }
+    }, {
+      "uid" : "6a65129c0bc76492",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643747353,
+        "stop" : 0,
+        "duration" : -1597643747353
+      }
+    }, {
+      "uid" : "f14164aad7eece33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597643747353,
+        "stop" : 1597643772375,
+        "duration" : 25022
+      }
+    }, {
+      "uid" : "88feb1ab2489d9e9",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643747352,
+        "stop" : 0,
+        "duration" : -1597643747352
+      }
+    }, {
+      "uid" : "bf3acb89f7d49ee0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597643747352,
+        "stop" : 1597643772706,
+        "duration" : 25354
+      }
+    }, {
+      "uid" : "61972878eff7c32e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643696121,
+        "stop" : 0,
+        "duration" : -1597643696121
+      }
+    }, {
+      "uid" : "103982d79a4993ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597643696121,
+        "stop" : 1597643722007,
+        "duration" : 25886
+      }
+    }, {
+      "uid" : "cdcc7844960a449e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597643696104,
+        "stop" : 1597643721842,
+        "duration" : 25738
+      }
+    }, {
+      "uid" : "db45518c1a59373e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643696104,
+        "stop" : 0,
+        "duration" : -1597643696104
+      }
+    }, {
+      "uid" : "de748059c9a49400",
+      "status" : "failed",
+      "statusDetails" : "Failed: value is not defined",
+      "time" : {
+        "start" : 1597643665768,
+        "stop" : 1597643670347,
+        "duration" : 4579
+      }
+    }, {
+      "uid" : "1901a3187b094e73",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643665768,
+        "stop" : 0,
+        "duration" : -1597643665768
+      }
+    }, {
+      "uid" : "842bd9470924d47c",
+      "status" : "failed",
+      "statusDetails" : "Failed: value is not defined",
+      "time" : {
+        "start" : 1597643665718,
+        "stop" : 1597643670654,
+        "duration" : 4936
+      }
+    }, {
+      "uid" : "3957aa6263ba8daf",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643665718,
+        "stop" : 0,
+        "duration" : -1597643665718
+      }
+    }, {
+      "uid" : "da2aecc15042987f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643624108,
+        "stop" : 0,
+        "duration" : -1597643624108
+      }
+    }, {
+      "uid" : "95e80a50a6f05390",
+      "status" : "failed",
+      "statusDetails" : "Failed: value is not defined",
+      "time" : {
+        "start" : 1597643624108,
+        "stop" : 1597643628558,
+        "duration" : 4450
+      }
+    }, {
+      "uid" : "696ced45708bd80c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643624091,
+        "stop" : 0,
+        "duration" : -1597643624091
+      }
+    }, {
+      "uid" : "91b3fd6586170375",
+      "status" : "failed",
+      "statusDetails" : "Failed: value is not defined",
+      "time" : {
+        "start" : 1597643624091,
+        "stop" : 1597643628406,
+        "duration" : 4315
+      }
+    }, {
+      "uid" : "536d4e7e14f80b5b",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643562462,
+        "stop" : 0,
+        "duration" : -1597643562462
+      }
+    }, {
+      "uid" : "dbee364c224a26fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597643562462,
+        "stop" : 1597643584343,
+        "duration" : 21881
+      }
+    }, {
+      "uid" : "6c5a5f7065adeabd",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597643562460,
+        "stop" : 0,
+        "duration" : -1597643562460
+      }
+    }, {
+      "uid" : "87a3ec35433d20c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597643562460,
+        "stop" : 1597643584641,
+        "duration" : 22181
+      }
+    }, {
+      "uid" : "6ece9ad0d397846a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597641907770,
+        "stop" : 1597641933513,
+        "duration" : 25743
+      }
+    }, {
+      "uid" : "b991fe6b8fd7f170",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597641907770,
+        "stop" : 0,
+        "duration" : -1597641907770
+      }
+    }, {
+      "uid" : "518e29722f216a74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597641907742,
+        "stop" : 1597641933667,
+        "duration" : 25925
+      }
+    }, {
+      "uid" : "4e4d61998231a86d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597641907742,
+        "stop" : 0,
+        "duration" : -1597641907742
+      }
+    }, {
+      "uid" : "e97fdf393a1e5c2",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'waitforelement' of undefined",
+      "time" : {
+        "start" : 1597641857072,
+        "stop" : 1597641859638,
+        "duration" : 2566
+      }
+    }, {
+      "uid" : "c5472ab91d143943",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597641857072,
+        "stop" : 0,
+        "duration" : -1597641857072
+      }
+    }, {
+      "uid" : "b157de68cb45713f",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'waitforelement' of undefined",
+      "time" : {
+        "start" : 1597641857031,
+        "stop" : 1597641859556,
+        "duration" : 2525
+      }
+    }, {
+      "uid" : "ec674746b98501ed",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597641857031,
+        "stop" : 0,
+        "duration" : -1597641857031
+      }
+    }, {
+      "uid" : "2da36c7073b443cd",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597641459874,
+        "stop" : 0,
+        "duration" : -1597641459874
+      }
+    }, {
+      "uid" : "9a6b3fcbefdefc84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597641459874,
+        "stop" : 1597641485414,
+        "duration" : 25540
+      }
+    }, {
+      "uid" : "6e7be5fd2337acbe",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597641459855,
+        "stop" : 0,
+        "duration" : -1597641459855
+      }
+    }, {
+      "uid" : "9b977859e75e2af0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597641459855,
+        "stop" : 1597641485994,
+        "duration" : 26139
+      }
+    }, {
+      "uid" : "3e8e4696cf391238",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597641294616,
+        "stop" : 0,
+        "duration" : -1597641294616
+      }
+    }, {
+      "uid" : "a8900bd9920c97ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597641294616,
+        "stop" : 1597641319038,
+        "duration" : 24422
+      }
+    }, {
+      "uid" : "29f3af3c3832d81d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597641294568,
+        "stop" : 0,
+        "duration" : -1597641294568
+      }
+    }, {
+      "uid" : "40e8e30d2176cf6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597641294568,
+        "stop" : 1597641320800,
+        "duration" : 26232
+      }
+    }, {
+      "uid" : "5566a61ead06c7ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597640975102,
+        "stop" : 1597641002410,
+        "duration" : 27308
+      }
+    }, {
+      "uid" : "d49426a4303aaa89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597640975102,
+        "stop" : 1597641002853,
+        "duration" : 27751
+      }
+    }, {
+      "uid" : "aed4598e4c521f33",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597640975102,
+        "stop" : 0,
+        "duration" : -1597640975102
+      }
+    }, {
+      "uid" : "a84b5a1f37cb64b6",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597640975102,
+        "stop" : 0,
+        "duration" : -1597640975102
+      }
+    }, {
+      "uid" : "af0ec62d8abf6bec",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597640872717,
+        "stop" : 0,
+        "duration" : -1597640872717
+      }
+    }, {
+      "uid" : "899a2af4d1c1d88c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597640872717,
+        "stop" : 1597640899423,
+        "duration" : 26706
+      }
+    }, {
+      "uid" : "660a1ea5706ddaa5",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597640872665,
+        "stop" : 0,
+        "duration" : -1597640872665
+      }
+    }, {
+      "uid" : "1fc9aa4dc9463246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597640872665,
+        "stop" : 1597640899641,
+        "duration" : 26976
+      }
+    }, {
+      "uid" : "d1416212456706da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597640576095,
+        "stop" : 1597640602030,
+        "duration" : 25935
+      }
+    }, {
+      "uid" : "11d042844ed3ca44",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597640576095,
+        "stop" : 0,
+        "duration" : -1597640576095
+      }
+    }, {
+      "uid" : "9365edf580b9d04d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597640576094,
+        "stop" : 0,
+        "duration" : -1597640576094
+      }
+    }, {
+      "uid" : "87f84f02473e3ed7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597640576094,
+        "stop" : 1597640602302,
+        "duration" : 26208
+      }
+    }, {
+      "uid" : "d18ad00a910ebac6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597640481018,
+        "stop" : 1597640507300,
+        "duration" : 26282
+      }
+    }, {
+      "uid" : "10a95fdc8d42802c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597640481018,
+        "stop" : 0,
+        "duration" : -1597640481018
+      }
+    }, {
+      "uid" : "a0d45da540d6449d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597640480948,
+        "stop" : 0,
+        "duration" : -1597640480948
+      }
+    }, {
+      "uid" : "f9119e9af6a41d78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597640480948,
+        "stop" : 1597640508046,
+        "duration" : 27098
+      }
+    }, {
+      "uid" : "9f434c7b59d6cf57",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597640208706,
+        "stop" : 0,
+        "duration" : -1597640208706
+      }
+    }, {
+      "uid" : "4bd1cdeace9907f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597640208706,
+        "stop" : 1597640236552,
+        "duration" : 27846
+      }
+    }, {
+      "uid" : "3f481d87055dc202",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597640208705,
+        "stop" : 0,
+        "duration" : -1597640208705
+      }
+    }, {
+      "uid" : "cb4b572b709fbf57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597640208705,
+        "stop" : 1597640236924,
+        "duration" : 28219
+      }
+    }, {
+      "uid" : "651d50b60663c6ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597639929335,
+        "stop" : 1597639953459,
+        "duration" : 24124
+      }
+    }, {
+      "uid" : "1be1f820ae66bbaf",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597639929334,
+        "stop" : 0,
+        "duration" : -1597639929334
+      }
+    }, {
+      "uid" : "ad088cec9f3d2046",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597639620334,
+        "stop" : 1597639642551,
+        "duration" : 22217
+      }
+    }, {
+      "uid" : "7482e6c3ba9cc916",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597639620334,
+        "stop" : 0,
+        "duration" : -1597639620334
+      }
+    }, {
+      "uid" : "9ca2414087aad8c5",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597639175077,
+        "stop" : 0,
+        "duration" : -1597639175077
+      }
+    }, {
+      "uid" : "f1e0ee36f5a8b282",
+      "status" : "failed",
+      "statusDetails" : "Failed: No element found using locator: By(xpath, //div[@class='angucomplete-title ng-binding ng-scope'])",
+      "time" : {
+        "start" : 1597639175077,
+        "stop" : 1597639192917,
+        "duration" : 17840
+      }
+    }, {
+      "uid" : "94472abf361ffbd1",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597639053890,
+        "stop" : 0,
+        "duration" : -1597639053890
+      }
+    }, {
+      "uid" : "960262d1dc42fea1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597639053890,
+        "stop" : 1597639076287,
+        "duration" : 22397
+      }
+    }, {
+      "uid" : "9d1c36b7e9a4279d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597638978443,
+        "stop" : 0,
+        "duration" : -1597638978443
+      }
+    }, {
+      "uid" : "a6c980d24f6a66a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597638978443,
+        "stop" : 1597638999198,
+        "duration" : 20755
+      }
+    }, {
+      "uid" : "34b344e4c39a9b72",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597638932023,
+        "stop" : 0,
+        "duration" : -1597638932023
+      }
+    }, {
+      "uid" : "2d51f2eb013565a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597638932023,
+        "stop" : 1597638954773,
+        "duration" : 22750
+      }
+    }, {
+      "uid" : "dd7049f9a72bdeae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597638885261,
+        "stop" : 1597638909533,
+        "duration" : 24272
+      }
+    }, {
+      "uid" : "b5a5d0776c79b8e3",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597638885261,
+        "stop" : 0,
+        "duration" : -1597638885261
+      }
+    }, {
+      "uid" : "9157a24257c53917",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597638850092,
+        "stop" : 0,
+        "duration" : -1597638850092
+      }
+    }, {
+      "uid" : "80200349cc155451",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597638850092,
+        "stop" : 1597638875023,
+        "duration" : 24931
+      }
+    }, {
+      "uid" : "23c40a515766440a",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597638795967,
+        "stop" : 0,
+        "duration" : -1597638795967
+      }
+    }, {
+      "uid" : "c022f75556e173f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597638795967,
+        "stop" : 1597638826530,
+        "duration" : 30563
+      }
+    }, {
+      "uid" : "b71168c62955fd1",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1583370876183,
+        "stop" : 0,
+        "duration" : -1583370876183
+      }
+    }, {
+      "uid" : "7b4c74cc3f9ea882",
+      "status" : "failed",
+      "statusDetails" : "Failed: Wait timed out after 60058ms",
+      "time" : {
+        "start" : 1583370876183,
+        "stop" : 1583370941508,
+        "duration" : 65325
+      }
+    }, {
+      "uid" : "48d2edc73ed57464",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1583370494319,
+        "stop" : 0,
+        "duration" : -1583370494319
+      }
+    }, {
+      "uid" : "a2a9748edd613332",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583370494319,
+        "stop" : 1583370527616,
+        "duration" : 33297
+      }
+    }, {
+      "uid" : "78d8986f573de80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583370410814,
+        "stop" : 1583370462529,
+        "duration" : 51715
+      }
+    }, {
+      "uid" : "6c082f814bb254ef",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1583370410814,
+        "stop" : 0,
+        "duration" : -1583370410814
+      }
+    }, {
+      "uid" : "2949f62cb7f89368",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582776089647,
+        "stop" : 0,
+        "duration" : -1582776089647
+      }
+    }, {
+      "uid" : "3eb9fcc6572b5b0a",
+      "status" : "failed",
+      "statusDetails" : "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.",
+      "time" : {
+        "start" : 1582776089647,
+        "stop" : 1582776181258,
+        "duration" : 91611
+      }
+    }, {
+      "uid" : "d5ce097dcacc59cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582776004343,
+        "stop" : 1582776042419,
+        "duration" : 38076
+      }
+    }, {
+      "uid" : "d5db3b21df7e044e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582776004342,
+        "stop" : 0,
+        "duration" : -1582776004342
+      }
+    }, {
+      "uid" : "a64bd38ed5e924ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582775684283,
+        "stop" : 1582775720076,
+        "duration" : 35793
+      }
+    }, {
+      "uid" : "985bad44f820d7eb",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582775684283,
+        "stop" : 0,
+        "duration" : -1582775684283
+      }
+    }, {
+      "uid" : "7c003bb5ce7a324f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582775517402,
+        "stop" : 1582775554326,
+        "duration" : 36924
+      }
+    }, {
+      "uid" : "568bf706e56e6dea",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582775517402,
+        "stop" : 0,
+        "duration" : -1582775517402
+      }
+    }, {
+      "uid" : "2ee85fddd42bf5a2",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1582775089386,
+        "stop" : 0,
+        "duration" : -1582775089386
+      }
+    }, {
+      "uid" : "b57cfd8855a1db4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582775089386,
+        "stop" : 1582775128188,
+        "duration" : 38802
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4b1e8e1b715edaf6.json",
+  "parameterValues" : [ ]
+}

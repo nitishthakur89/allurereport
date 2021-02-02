@@ -1,0 +1,46 @@
+{
+  "uid" : "b6a325be0d759f57",
+  "name" : "API test cases",
+  "fullName" : "apitest.API test cases",
+  "historyId" : "af440a5703fc45b2011d71e5385b6c6a",
+  "time" : {
+    "start" : 1582861568069,
+    "stop" : 1582861572230,
+    "duration" : 4161
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: TypeError [ERR_INVALID_CHAR]: Invalid character in header content [\"Authorization\"]",
+  "statusTrace" : "Error: TypeError [ERR_INVALID_CHAR]: Invalid character in header content [\"Authorization\"]\n                    at Request._callback (C:\\angular\\AIMS-javascript\\page\\utils\\apiHelper.js:62:30)\n                    at self.callback (C:\\angular\\AIMS-javascript\\node_modules\\request\\request.js:185:22)\n                    at Request.emit (events.js:198:13)\n                    at Request.start (C:\\angular\\AIMS-javascript\\node_modules\\request\\request.js:753:10)\n                    at Request.end (C:\\angular\\AIMS-javascript\\node_modules\\request\\request.js:1505:10)\n                    at end (C:\\angular\\AIMS-javascript\\node_modules\\request\\request.js:564:14)\n                    at Immediate.<anonymous> (C:\\angular\\AIMS-javascript\\node_modules\\request\\request.js:578:7)\n                    at runCallback (timers.js:705:18)\n                    at tryOnImmediate (timers.js:676:5)\n                    at processImmediate (timers.js:658:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "apitest"
+  }, {
+    "name" : "testClass",
+    "value" : "apitest"
+  }, {
+    "name" : "testMethod",
+    "value" : "API test cases"
+  }, {
+    "name" : "package",
+    "value" : "apitest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6a325be0d759f57.json",
+  "parameterValues" : [ ]
+}

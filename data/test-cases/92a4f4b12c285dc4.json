@@ -1,0 +1,233 @@
+{
+  "uid" : "92a4f4b12c285dc4",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "9e5ef4b10ff22cb7edfd95f8c4ac32b7",
+  "time" : {
+    "start" : 1606368871758,
+    "stop" : 1606368885474,
+    "duration" : 13716
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step1",
+      "time" : {
+        "start" : 1606368884020,
+        "stop" : 1606368884020,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bec831b7f5d033a2",
+      "status" : "broken",
+      "statusDetails" : "Step status must be passed or failed or broken or canceled or skipped. You tried to set \"Passed\"",
+      "time" : {
+        "start" : 1606368842078,
+        "stop" : 1606368853911,
+        "duration" : 11833
+      }
+    }, {
+      "uid" : "73cda7b95952a4cb",
+      "status" : "broken",
+      "statusDetails" : "Step status must be passed or failed or broken or canceled or skipped. You tried to set \"Passe\"",
+      "time" : {
+        "start" : 1606368809929,
+        "stop" : 1606368821712,
+        "duration" : 11783
+      }
+    }, {
+      "uid" : "de91460f2ace9568",
+      "status" : "broken",
+      "statusDetails" : "Passed is not defined",
+      "time" : {
+        "start" : 1606368767147,
+        "stop" : 1606368778713,
+        "duration" : 11566
+      }
+    }, {
+      "uid" : "9594928cbab72235",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1606368674773,
+        "stop" : 1606368686492,
+        "duration" : 11719
+      }
+    }, {
+      "uid" : "ce0a07e72a74afd0",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1606368586847,
+        "stop" : 1606368599730,
+        "duration" : 12883
+      }
+    }, {
+      "uid" : "c2e001c6ae76192f",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1606368541179,
+        "stop" : 1606368556926,
+        "duration" : 15747
+      }
+    }, {
+      "uid" : "44b2a40d878cdb9c",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1606367753544,
+        "stop" : 1606367766501,
+        "duration" : 12957
+      }
+    }, {
+      "uid" : "44554a3dbc1eff81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606367665464,
+        "stop" : 1606367678426,
+        "duration" : 12962
+      }
+    }, {
+      "uid" : "a1ca201a78332cdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606367106024,
+        "stop" : 1606367119278,
+        "duration" : 13254
+      }
+    }, {
+      "uid" : "4e2354460ed084d",
+      "status" : "broken",
+      "statusDetails" : "browser.saveDocumentScreenshot is not a function",
+      "time" : {
+        "start" : 1606367059546,
+        "stop" : 1606367071041,
+        "duration" : 11495
+      }
+    }, {
+      "uid" : "b47ab3bdffc61dea",
+      "status" : "broken",
+      "statusDetails" : "No window found with title or url matching \"Mondo AIMS VAA\"",
+      "time" : {
+        "start" : 1606367036382,
+        "stop" : 1606367044962,
+        "duration" : 8580
+      }
+    }, {
+      "uid" : "7d057558e5f55060",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606366893989,
+        "stop" : 1606366915814,
+        "duration" : 21825
+      }
+    }, {
+      "uid" : "9e4a00fa78e78d14",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1606366844840,
+        "stop" : 1606366858669,
+        "duration" : 13829
+      }
+    }, {
+      "uid" : "ffdfc5643ccf7484",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1606366495223,
+        "stop" : 1606366509053,
+        "duration" : 13830
+      }
+    }, {
+      "uid" : "89181c1967437bfa",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1606366231002,
+        "stop" : 1606366244363,
+        "duration" : 13361
+      }
+    }, {
+      "uid" : "814b1f6f7164b145",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1606365963452,
+        "stop" : 1606365976405,
+        "duration" : 12953
+      }
+    }, {
+      "uid" : "ae273b5eb8deceb6",
+      "status" : "broken",
+      "statusDetails" : "waitUntil condition timed out after 10000ms",
+      "time" : {
+        "start" : 1606365853136,
+        "stop" : 1606365866367,
+        "duration" : 13231
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92a4f4b12c285dc4.json",
+  "parameterValues" : [ "chrome-87.0.4280.66" ]
+}

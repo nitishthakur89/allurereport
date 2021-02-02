@@ -1,0 +1,58 @@
+{
+  "uid" : "9594928cbab72235",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "9e5ef4b10ff22cb7edfd95f8c4ac32b7",
+  "time" : {
+    "start" : 1606368674773,
+    "stop" : 1606368686492,
+    "duration" : 11719
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "allureReporter is not defined",
+  "statusTrace" : "ReferenceError: allureReporter is not defined\n                    at commonFunction.login (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-webdriverio\\test\\pageobjects\\reusablefunction\\commonFunction.js:32:9)\n                    at Context.it (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-webdriverio\\test\\specs\\example.e2e.js:19:16)\n                    at Context.executeSync (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-webdriverio\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at fibers_1.default (C:\\c-backup\\automation-framework\\AIMS3D\\VAA-webdriverio\\node_modules\\@wdio\\sync\\build\\index.js:46:68)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9594928cbab72235.json",
+  "parameterValues" : [ "chrome-87.0.4280.66" ]
+}
